@@ -2,7 +2,7 @@
 
 const hostname = window.location.hostname;
 const port = window.location.port || "3000"; // Default to 3000 if no port is specified
-const socket = io(`http://${hostname}:${port}`);
+const socket = io(`https://${hostname}:${port}`);
 var typing = false;
 var timeout = undefined;
 
