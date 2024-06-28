@@ -99,7 +99,7 @@ socket.on("notification", ({ username, text }) => {
     // add notification sound
     var audio = new Audio("notification.mp3");
     audio.play();
-    alert(`${username} has sent a message`);
+   // alert(`${username} has sent a message`);
 });
 
 socket.on("message", (message) => {
